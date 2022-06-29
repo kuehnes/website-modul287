@@ -2,7 +2,6 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="illustrations/favicons/favicons-whitelogo.png" sizes="64x64">
     <link href="css/fontawesome/fontawesome.css" rel="stylesheet" />
     <link href="css/fontawesome/brands.css" rel="stylesheet" />
@@ -15,241 +14,243 @@
     <title>Rezepte</title>
 </head>
 <body>
-<!--hier fängt der header an-->
-<header>
-    <div class="container-fluid">
-        <div class="row-nav">
+    <!--hier fängt der header an-->
+    <header>
+        <div class="container-fluid">
+            <div class="row-nav">
+                <!--platzhalter Seiten-->
+                <div class="col-2"></div>
+                <!--titel und untertitel-->
+                <div class="col-8"> <!--title-->
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="illustrations/logo/smooth-summer.svg" style="height: 100px;" alt="Logo">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul class="nav justify-content-end lead">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="rezepte.html">REZEPTE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">KONTAKT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
             <!--platzhalter Seiten-->
             <div class="col-2"></div>
-            <!--titel und untertitel-->
-            <div class="col-8"> <!--title-->
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="illustrations/logo/smooth-summer.svg" style="height: 100px;" alt="Logo">
-                    </a>
+        </div>
+    </header>
+    <!--hier fängt der main an-->
+    <main>
+        <!--Galerie-->
+            <section class="carousel-section">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!--1. slide -->
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/carousel/cut-pexels-matthias-cooper-1113145.jpg" alt="First slide">
+                        </div>
+                        <!--2. slide -->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/cut-pexels-pixabay-434295.jpg" alt="Second slide">
+                        </div>
+                        <!--3. slide -->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/cut-pexels-kourosh-qaffari-1583582.jpg" alt="Third slide">
+                        </div>
+                        <!--4. slide -->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/cut-pexels-min-an-1650035.jpg" alt="Fourth slide">
+                        </div>
+                        <!--5. slide -->
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/cut-pexels-pixabay-235734.jpg" alt="Fifth slide">
+                        </div>
+                    </div>
                 </div>
-                <nav>
-                    <ul class="nav justify-content-end lead">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="rezepte.html">REZEPTE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="kontakt.html">KONTAKT</a>
-                        </li>
-                    </ul>
-                </nav>
+            </section>
+
+        <div class="container-new">
+            <div class="new">
+                <p>NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! </p>
+                <p class="p-container-animation">NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW!</p>
             </div>
         </div>
-        <!--platzhalter Seiten-->
-        <div class="col-2"></div>
-    </div>
-</header>
-<!--hier fängt der main an-->
-<main>
-    <!--Galerie-->
-    <section class="carousel-section">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <!--1. slide -->
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/carousel/cut-pexels-matthias-cooper-1113145.jpg" alt="First slide">
-                </div>
-                <!--2. slide -->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/carousel/cut-pexels-pixabay-434295.jpg" alt="Second slide">
-                </div>
-                <!--3. slide -->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/carousel/cut-pexels-kourosh-qaffari-1583582.jpg" alt="Third slide">
-                </div>
-                <!--4. slide -->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/carousel/cut-pexels-min-an-1650035.jpg" alt="Fourth slide">
-                </div>
-                <!--5. slide -->
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/carousel/cut-pexels-pixabay-235734.jpg" alt="Fifth slide">
+        <!--rezeptcards-->
+        <div class="card-maincontainer">
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/pexels-polina-tankilevitch-4443435.jpg" class="img-card" alt="Smootie Calm">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">CALM SMOOTIE</h5>
+                        <ul>
+                            <li>2 ganzen Äpfel mit Schale geviertelt</li>
+                            <li>2 ganze Kiwis, geschält</li>
+                            <li>½ Limette</li>
+                            <li>100 g Salatgurke</li>
+                            <li>½ Teelöffel Vanilleextrakt</li>
+                        </ul>
+
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>2 kleine Stiele Petersilie zum Garnieren (nach Belieben)</li>
+                            <li>1 Teelöffel Chiasamen</li>
+                            <li>1 Teelöffel Hanfsamen</li>
+                            <li>1 Teelöffel Leinsamen</li>
+                            <li>1 Teelöffel Ahornsirup</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <div class="container-new">
-        <div class="new">
-            <p>NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW! NEW!</p>
-        </div>
-    </div>
-    <!--rezeptcards-->
-    <div class="card-maincontainer">
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/pexels-polina-tankilevitch-4443477.jpg" class="img-card" alt="Smootie Erdbeeren">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">Strawberry Smoothie</h5>
-                    <ul>
-                        <li>1 gehäufte Tasse frische Erdbeeren</li>
-                        <li>1 Tasse Bananenscheiben, am besten gefroren</li>
-                        <li>½ einer mittelgrossen Orange, geschält und geviertelt</li>
-                        <li>¾ - 1 Tasse Milch, (ersetzt das Wasser)</li>
-                        <li>½ Teelöffel Vanilleextrakt</li>
-                    </ul>
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/pexels-polina-tankilevitch-4443496.jpg" class="img-card" alt="Smootie Elegant">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">ELEGANT SMOOTIE</h5>
+                        <ul>
+                            <li>1 ½ Tassen Drachenfrucht gewürfelt und gefroren</li>
+                            <li>1 Tasse Bananenscheiben, am besten gefroren</li>
+                            <li>½ Tasse Blaubeeren gefroren</li>
+                            <li>½ – 1 Tasse Pflanzenmilch je nach gewünschter Dicke</li>
+                            <li>½ Teelöffel Vanilleextrakt</li>
+                        </ul>
 
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>1 Esslöffel Mandelbutter oder Erdnussbutter</li>
-                        <li>1 Teelöffel Chiasamen</li>
-                        <li>1 Teelöffel Hanfsamen</li>
-                        <li>1 Teelöffel Leinsamen</li>
-                        <li>1 Teelöffel Erdbeermarmelade, Honig oder Ahornsirup</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/pexels-polina-tankilevitch-4443496.jpg" class="img-card" alt="Smootie Drachenfrucht">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">DragonFruit Smoothie</h5>
-                    <ul>
-                        <li>1 ½ Tassen Drachenfrucht gewürfelt und gefroren</li>
-                        <li>1 Tasse Bananenscheiben, am besten gefroren</li>
-                        <li>½ Tasse Blaubeeren gefroren</li>
-                        <li>½ – 1 Tasse Pflanzenmilch je nach gewünschter Dicke</li>
-                        <li>½ Teelöffel Vanilleextrakt</li>
-                    </ul>
-
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>1 Teelöffel Honig oder Ahornsirup</li>
-                        <li>1 Esslöffel Mandelbutter</li>
-                        <li>1 Teelöffel Chiasamen</li>
-                        <li>1 Teelöffel Hanfsamen</li>
-                        <li>1 Teelöffel Leinsamen</li>
-                    </ul>
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>1 Teelöffel Honig oder Ahornsirup</li>
+                            <li>1 Esslöffel Mandelbutter</li>
+                            <li>1 Teelöffel Chiasamen</li>
+                            <li>1 Teelöffel Hanfsamen</li>
+                            <li>1 Teelöffel Leinsamen</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-new">
-        <div class="new">
-            <p>ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! </p>
-        </div>
-    </div>
-
-    <!--rezeptcards-->
-    <div class="card-maincontainer">
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/heidelbeer_smoothie.jpeg" class="img-card" alt="Smootie Heidelbeer">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">Heidelbeer Smoothie</h5>
-                    <ul>
-                        <li>4 Blätter Chinakohl</li>
-                        <li>80 g Heidelbeeren tiefgefroren</li>
-                        <li>1 Orange</li>
-                        <li>1 Banane</li>
-                        <li>100 ml Wasser</li>
-                    </ul>
-
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>1 Esslöffel Mandelbutter</li>
-                        <li>1 Teelöffel Leinsamen</li>
-                        <li>1 Teelöffel Honig oder Ahornsirup</li>
-                    </ul>
-                </div>
+        <div class="container-new">
+            <div class="new">
+                <p>ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! </p>
+                <p class="p-container-animation-2">ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! ALWAYS A GOOD CHOICE! </p>
             </div>
         </div>
 
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/kiwi-smoothie.jpeg" class="img-card" alt="Smootie Kiwi-matcha">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">Kiwi-Matcha Smoohtie</h5>
-                    <ul>
-                        <li>50g Nüsslisalat</li>
-                        <li>1 Teelöffel Matcha-Pulver</li>
-                        <li>2.5dl Apflesaft</li>
-                        <li>4 Eiswürfel</li>
-                        <li>3 Kiwis, gewürfelt</li>
-                    </ul>
+        <!--rezeptcards-->
+        <div class="card-maincontainer">
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/heidelbeer_smoothie.jpeg" class="img-card" alt="Smootie Heidelbeer">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">Heidelbeer Smoothie</h5>
+                        <ul>
+                            <li>4 Blätter Chinakohl</li>
+                            <li>80 g Heidelbeeren tiefgefroren</li>
+                            <li>1 Orange</li>
+                            <li>1 Banane</li>
+                            <li>100 ml Wasser</li>
+                        </ul>
 
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>1 Teelöffel Honig oder Ahornsirup</li>
-                        <li>1 Esslöffel Mandelbutter</li>
-                        <li>1 Teelöffel Chiasamen</li>
-                    </ul>
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>1 Esslöffel Mandelbutter</li>
+                            <li>1 Teelöffel Leinsamen</li>
+                            <li>1 Teelöffel Honig oder Ahornsirup</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/pexels-polina-tankilevitch-4443465.jpg" class="img-card" alt="Smootie Orangen - Ingwer">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">Orangen - Ingwer Smootie</h5>
-                    <ul>
-                        <li>2 ganze Orangen</li>
-                        <li>½ Karotte geraspelt</li>
-                        <li>5 g Ingwer</li>
-                        <li>½ Teelöfel Kurkuma</li>
-                        <li>1 Prise Zimt</li>
-                    </ul>
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/kiwi-smoothie.jpeg" class="img-card" alt="Smootie Kiwi-matcha">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">Kiwi-Matcha Smoohtie</h5>
+                        <ul>
+                            <li>50g Nüsslisalat</li>
+                            <li>1 Teelöffel Matcha-Pulver</li>
+                            <li>2.5dl Apflesaft</li>
+                            <li>4 Eiswürfel</li>
+                            <li>3 Kiwis, gewürfelt</li>
+                        </ul>
 
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>1 Teelöffel Honig oder Ahornsirup</li>
-                        <li>1 Esslöffel Mandelbutter</li>
-                        <li>1 Teelöffel Chiasamen</li>
-                        <li>1 Teelöffel Hanfsamen</li>
-                        <li>1 Teelöffel Leinsamen</li>
-                    </ul>
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>1 Teelöffel Honig oder Ahornsirup</li>
+                            <li>1 Esslöffel Mandelbutter</li>
+                            <li>1 Teelöffel Chiasamen</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="maincontainer">
-            <div class="thecard">
-                <div class="thefront">
-                    <img src="images/cards/kakao-bananen-smoothie.jpeg" class="img-card" alt="Smootie Kakao-Banane">
-                </div>
-                <div class="theback">
-                    <h5 class="card-title">Kakao-Bananen Smoothie</h5>
-                    <ul>
-                        <li>2 Bananen</li>
-                        <li>2.5dl Mandeldrink oder -milch</li>
-                        <li>1 Esslöffel Kakaopulver</li>
-                        <li>4 Eiswürfel</li>
-                    </ul>
 
-                    <h6 class="card-text">Optionale Zutaten</h6>
-                    <ul>
-                        <li>Sprühsahne</li>
-                        <li>1 Teelöffel Zimt</li>
-                        <li>1 Handvoll Himbeeren</li>
-                    </ul>
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/pexels-polina-tankilevitch-4443465.jpg" class="img-card" alt="Smootie Orangen - Ingwer">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">Orangen - Ingwer Smootie</h5>
+                        <ul>
+                            <li>2 ganze Orangen</li>
+                            <li>½ Karotte geraspelt</li>
+                            <li>5 g Ingwer</li>
+                            <li>½ Teelöfel Kurkuma</li>
+                            <li>1 Prise Zimt</li>
+                        </ul>
+
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>1 Teelöffel Honig oder Ahornsirup</li>
+                            <li>1 Esslöffel Mandelbutter</li>
+                            <li>1 Teelöffel Chiasamen</li>
+                            <li>1 Teelöffel Hanfsamen</li>
+                            <li>1 Teelöffel Leinsamen</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-</main>
+            <div class="maincontainer">
+                <div class="thecard">
+                    <div class="thefront">
+                        <img src="images/cards/kakao-bananen-smoothie.jpeg" class="img-card" alt="Smootie Kakao-Banane">
+                    </div>
+                    <div class="theback">
+                        <h5 class="card-title">Kakao-Bananen Smoothie</h5>
+                        <ul>
+                            <li>2 Bananen</li>
+                            <li>2.5dl Mandeldrink oder -milch</li>
+                            <li>1 Esslöffel Kakaopulver</li>
+                            <li>4 Eiswürfel</li>
+                        </ul>
 
-<!--hier fängt der footer an-->
-<footer class="sticky-bottom lead">
-    <footer class="footer-rezepte">
+                        <h6 class="card-text">Optionale Zutaten</h6>
+                        <ul>
+                            <li>Sprühsahne</li>
+                            <li>1 Teelöffel Zimt</li>
+                            <li>1 Handvoll Himbeeren</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!--hier fängt der footer an-->
+    <footer class="sticky-bottom lead">
+        <footer class="footer-rezepte">
         <div class="container-fluid">
             <section>
                 <div class="row">
@@ -285,11 +286,11 @@
                 </div>
             </section>
         </div>
+        </footer>
     </footer>
-</footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
