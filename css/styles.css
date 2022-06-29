@@ -224,6 +224,8 @@ video { /* parent*/
     padding-top: 60px;
 }
 
+
+
 .new {
     position: relative;
     width: 100%;
@@ -238,8 +240,16 @@ video { /* parent*/
     font-size: 30px;
     font-weight: bold;
     color: black;
-    animation: anim 100s linear infinite;
+    animation: anim 80s linear infinite;
     white-space:nowrap;
+}
+
+.p-container-animation{
+    left: 98vw;
+}
+
+.p-container-animation-2{
+    left: 100vw;
 }
 
 @keyframes anim {
@@ -271,20 +281,25 @@ video { /* parent*/
 }
 
 /*flipcard*/
+.thecard {
+    margin: 10px;
+}
+.card-maincontainer {
+    padding-left: 270px;
+}
+
 .maincontainer{
     position: relative;
     width: 450px;
     height: 360px;
     display: inline-block;
-}
-
-.card-maincontainer {
-    padding-left: 270px;
+    margin: 20px;
 }
 
 .img-card {
-    width: 450px;
-    height: 360px;
+    width: 100%;
+    height: 100%;
+
 }
 .thecard{
     position: absolute;
