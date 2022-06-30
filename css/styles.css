@@ -9,7 +9,7 @@ body{
 }
 
 h2{
-    font-family:'Lateef', sans-serif;
+    font-family: 'Open', sans-serif;
     font-size: 50px;
     margin-bottom: 200px;!important;
     color: #1F2B33;!important;
@@ -124,7 +124,7 @@ img {
 /*footer*/
 .footer-home {
     padding: 0 50px 10px 50px;
-    margin-top: 1200px;
+    margin-top: 900px;
     background-color: #D6F585;
     color: #000000;
 }
@@ -197,7 +197,6 @@ ul .socials{
 }
 .card-titel{
     text-align: center;
-    font-family:'Pacifico', sans-serif;
     color: #1F2B33;
     font-size: 16px;
 }
@@ -347,10 +346,12 @@ video { /* parent*/
 .mapouter {
     padding-top: 50px;
     padding-left: 60px;
-    padding-bottom: 50px;
-    text-align: center;
 }
 
 .gmap_canvas {
-    border-radius: 40px;
+    border-radius: 20px;
+}
+
+.container {
+    padding-top: 150px;
 }
