@@ -223,8 +223,6 @@ video { /* parent*/
     padding-top: 60px;
 }
 
-
-
 .new {
     position: relative;
     width: 100%;
@@ -265,24 +263,22 @@ video { /* parent*/
     padding: 0;
     margin: 0;
 }
+
+#carouselExampleSlidesOnly {
+}
+
 .carousel-inner img {
     border-radius: 0;
     border-bottom-style: solid;
     border-top-style: solid;
     border-color: #1F2B33;
 }
-#carouselExampleSlidesOnly{
-}
-
-#botanicals{
-    width: 100%;
-    float: left;
-}
 
 /*flipcard*/
 .thecard {
     margin: 10px;
 }
+
 .card-maincontainer {
     padding-left: 270px;
 }
